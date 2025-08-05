@@ -7,9 +7,9 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'robots.txt', 'apple-touch-icon.png', 'vite.svg', 'assets/react.svg'],
+      includeAssets: ['favicon.svg', 'robots.txt', 'apple-touch-icon.png', 'vite.svg', 'react.svg'],
       manifest: {
-        name: 'My PWA App',
+        name: 'Test PWA App',
         short_name: 'PWA App',
         description: 'My Vite + React + TS PWA!',
         theme_color: '#ffffff',
